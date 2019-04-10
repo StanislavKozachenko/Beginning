@@ -1,0 +1,84 @@
+body {
+	background-color: #ecf0f1;
+}
+.Container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	margin-right: 55px;
+}
+.KK {
+	position: relative;
+	perspective: 1000px;
+}
+.Shtuka {
+	height: 55vh;
+	border: 1px white solid;
+	width: 28.15%;
+	margin-left: 5%;
+	margin-top: 5%;
+	border-radius: 5px;
+	background: white;
+	padding-top: 5%;
+	padding-bottom: 5%;
+	transition: 0.4s;
+}
+
+.Shtuka i {
+	display: flex;
+	font-size: 60px;
+	align-items: center;
+	justify-content: center;
+	padding-top: 9%;
+}
+
+.Zag {
+	padding-top: 3%;
+	font-size: 25px;
+	text-align: center;
+	color: #1abc9c;
+}
+
+.Consequat {
+	padding-top: 3%;
+	font-size: 18px;
+	text-align: center;
+}
+
+.Read {
+	font-size: 20px;
+	margin-top: 8%;
+	margin-left: 28%;
+	margin-right: 28%;
+	text-align: center;
+	display: block;
+	border: 2px black solid;
+	padding: 10px;
+}
+.Shtuka a {
+	text-decoration: none;
+	list-style: none;
+	list-style-type: none;
+}
+.Shtuka:hover {
+	transition: 0.3s;
+	background: #16a085;
+	border: 1px white solid;
+}
+
+.Shtuka:hover .Zag {
+	color: white;
+}
+
+.Shtuka:hover i {
+	color: white;
+}
+
+.Shtuka:hover .Consequat {
+	color: white;
+}
+
+.Shtuka:hover .Read {
+	color: white;
+	border: 2px white solid;
+}
