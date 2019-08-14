@@ -1,3 +1,3 @@
 # Beginning
 Nothing interesting.
-by Stanislav Kozachenko.
+Just first project on GitHub.
